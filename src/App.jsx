@@ -61,6 +61,7 @@ class App extends Component {
       alert(`Number ${name} is already in contacts`);
       return;
     }
+
     if (this.state.contacts.find((cont) => cont.number === number)) {
       alert(`${number} is already in contacts`);
       return;
